@@ -1,9 +1,6 @@
 package steps_definitions;
 
-import io.cucumber.java.bs.A;
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en_scouse.An;
 import org.example.pages.productListPage;
 
 public class product_list_steps {
