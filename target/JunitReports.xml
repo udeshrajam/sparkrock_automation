@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.08" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="assessment" name="Verify user can sort the product list for &quot;Name Z to A&quot;" time="0.015">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at org.example.pages.loginPage.userNameTextField(loginPage.java:24)
+	at steps_definitions.login_page_steps.enter_username(login_page_steps.java:16)
+	at ✽.enter the "standard user" username(file:///Users/udesh/Desktop/Personal/automation/sparkrock_assessment/src/test/java/features/assessment.feature:4)
+]]>
+</failure>
+<system-out><![CDATA[
+Given enter the "standard user" username....................................failed
+When enter the password.....................................................skipped
+And click the login button..................................................skipped
+And select "Name (Z to A)" as sorting option................................skipped
+And verify the product list.................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

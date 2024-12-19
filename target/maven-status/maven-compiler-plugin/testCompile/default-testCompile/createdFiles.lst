@@ -1,0 +1,3 @@
+steps_definitions/login_page_steps.class
+Runner/TestRunner.class
+steps_definitions/checkout_steps.class
